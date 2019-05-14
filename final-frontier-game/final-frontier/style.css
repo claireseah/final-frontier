@@ -1,0 +1,109 @@
+body {
+	/*background-color: rgb(66, 85, 99);*/
+	background-image: url(../project-1/game-background.png);
+	/*border-collapse:collapse;*/
+	padding-bottom: 0;
+}
+
+#title {
+	height: 100px;
+	width: 500px; 
+	text-align: left;
+	padding-left: 240px;
+}
+
+#game-area {
+	/*position: relative;*/
+	position: absolute;
+	left: 50%;
+	top:57%;
+	transform: translate(-50%,-50%);
+	width: 900px;
+	height: 600px;
+	background-image: url(../project-1/space.png);
+	/*border: 10px solid rgb(29, 37, 45);*/
+	border: 10px solid rgb(122, 153, 172);
+	border-radius: 25px;
+	
+	/*background-color: black;*/
+}
+
+#instructions {
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+	color: rgb(145,157,157);
+	text-align: center;
+	text-shadow: 5px 5px black;
+	padding-right: 100px;
+	padding-left: 100px;
+
+}
+
+#start-button {
+	position: relative;
+	top:10px;
+	left: 387px;
+	font-family: 'Lato', sans-serif;
+	color: rgb(208,211,212);
+	font-size: 25px;
+	background-color: rgb(80, 109, 133);
+	text-shadow: 4px 4px black;
+	border-radius: 15px;
+}
+
+#start-button:hover {
+	cursor: pointer;
+}
+
+#spaceship {
+	width: 80px;
+	height: 80px;
+	background-image: url(../project-1/spaceship.png);
+	position: absolute;
+	top: 500px;
+	left: 410px;
+	/*background-image: url(../project-1/earth.png);*/
+	/*background-color: white;*/
+}
+
+.laser {
+	width: 40px;
+	height: 120px;
+	position: absolute;
+}
+
+.obstacle {
+	width: 120px;
+	height: 120px;
+	position: absolute;
+	/*background-color: rgb(246, 235, 97);*/
+	/*box-shadow:*/
+       /*0 0 2px 2px rgb(246, 235, 97),*/
+       /*0 0 4px 4px rgb(240, 100, 0),*/
+      /* 0 0 9px 9px rgb(255, 181, 0);*/
+	/*background-color: grey;*/
+}
+
+.obstacle-transition {
+	opacity: 1;
+	transition: opacity 1.5s ease-out;
+}
+
+.clearpath {
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	opacity: 0;
+}
+
+#score-counter {
+	font-size: 40px;
+	color: rgb(208, 211, 212);
+	font-family: 'Roboto Mono', monospace;
+	text-align: right;
+	text-shadow: 2px 4px black;
+	display: inline-block;
+	padding-left: 170px;
+	border-collapse: collapse;
+}
