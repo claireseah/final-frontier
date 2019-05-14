@@ -1,7 +1,0 @@
-"Space: the final frontier..." is arguably one of the most iconic lines in the English lexicon. Combining that with my love for the 80s and pop culture in general, I've decided to use this project as a way to pay homage to old school arcade games. With that, I've decided to create a space voyage/shooter game complete with nostalgic pixellated animation. 
-
-Conceptually, the game is not too hard to explain. The "player" controls a spaceship which I imagine to be positioned at the bottom of the screen, moving left and right to avoid moonrocks (space debris). You cannot "win" the game - you can only get too many hits to die. If you don't, you will just keep moving to more complicated layouts. 
-
-*Phase 2* The "level up" from simply avoiding moonrocks is facing aliens. At this stage, you will not only be able to avoid the obstacles but also shoot with a laser out of the spaceship to kill these aliens and get more "life" with each alien killed. But if the alien escapes, you will lose a "life". 
-
-Therefore, to get started and code the most basic version of this game (i.e. sans aliens). Everything will be done within index.html, script.jss and style.css files. Here's to... THE FINAL FRONTIER!!
