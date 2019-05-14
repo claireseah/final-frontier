@@ -1,1 +1,3 @@
+I developed this game using a combination of HTML, CSS and JavaScript. The game takes its inspiration from the arcade classic, Space Invaders.I used this opportunity to practice using all the various coding languages I have learnt thus far together, as well design elements by using pixel art to create the background, icons and imagery myself.
 
+I wanted to create a game that paid homage to what I used to play as a child but that also had my own flair to it and a bit more of a retro feel than the classic Space Invaders layout. Thus, I hope you enjoy the Final Frontier! Turn up the volune for the sound effects and good luck protecting earth and blasting those nasty moon rocks away! 
